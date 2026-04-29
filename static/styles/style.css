@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+p {
+    margin: 0;
+}
+
+header>img {
+    height: 100px;
+}
+
+header>p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#formDiv {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+}
+
+#formDiv a{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    display: flex;
+    width: fit-content;
+}
+
+.inputDiv>label{
+    display: block;
+}
+
+.inputDiv>input{
+    width: 300px;
+    padding: 4px;
+}
+
+.inputDiv{
+    margin-bottom: 10px;
+}
+
+#selectLabel>select{
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    max-width: 300px;
+    max-height: 50px;
+    min-width: 300px;
+    padding: 4px;
+    min-height: 50px;
+    resize: none;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(44, 52, 57);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: rgb(113, 173, 208);
+}
+
+
+.btn:active{
+    background-color: rgb(44, 52, 57);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    height: 100px;
+}
+
+footer>p {
+    color: rgb(192, 192, 192);
+}
+
+
