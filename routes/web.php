@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HelloController;
+use App\Http\Controllers\ArticlesController;
+
 
 Route::get('/', function () {
     return view('main', [
@@ -17,3 +19,6 @@ Route::get('/hello/{username}', function ($username) {
         'username' => $username
     ]);
 });
+
+
+Route::get('/articles/{id}', [ArticlesController::class, 'show']);
