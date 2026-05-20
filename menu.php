@@ -36,7 +36,7 @@ function getMenu() {
 
         $sorts = [
             'id' => 'По добавлению',
-            'lastname' => 'По фамилии',
+            'surname' => 'По фамилии',
             'birthdate' => 'По дате рождения'
         ];
 
